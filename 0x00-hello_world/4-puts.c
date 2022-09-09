@@ -4,7 +4,7 @@
  * main - This is a description
  * print programming is like building a multilingual puzzle
  * Return: int 0
- * */
+ */
 int main(void)
 {
 
