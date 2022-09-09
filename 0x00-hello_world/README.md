@@ -1,2 +1,1 @@
-#!/bin/bash
-low level programming readme
+my first low level programming readme
