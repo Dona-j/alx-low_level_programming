@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - assign a randon number to variable n
+ * main - Entry point
  *
- * print if number stored in n is negative, positive or zero
+ * Description: print if the number stored in n is positive, negative or zero
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -16,13 +17,20 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 0)
-		printf("%d is positive/n", n);
-	else if (n == 0)
-		printf("%d is zero/n", n);
+	if  (n == 0)
+	{
+		printf("%i is zero|n", n);
+	}
+
+	else if (n < 0)
+	{
+		printf("%i is negative\n", n);
+	}
+
 	else
-		printf("is negative/n", n);
+	{
+		printf("%i is positive\n", n);
+	}
 
 	return (0);
-
 }
