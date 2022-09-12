@@ -15,13 +15,13 @@ int main(void)
 	int n;
 	int m;
 
-	while (i <= 10)
+	while (i <= 9)
 	{
 		n = 0;
-		while (n < 10)
+		while (n <= 9)
 		{
 			m = 0;
-			while (m < 10)
+			while (m <= 9)
 			{
 				if (i != n && i < n && n != m && n < m)
 				{
