@@ -16,18 +16,18 @@ int main(void)
 
 	while (i <= 99)
 	{
-		n = 0; 
+		n = 0;
 		while (n <= 99)
 		{
 			if (n != i)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
-				putchar (' ');
 				putchar((n / 10) + 48);
-				putchar ((n % 10) + 48);
+				putchar((n % 10) + 48);
+				putchar (' ');
+				putchar((i / 10) + 48);
+				putchar ((i % 10) + 48);
 
-				if (i != 98 || n != 98)
+				if (n != 98 || i != 98)
 				{
 					putchar(',');
 					putchar(' ');
