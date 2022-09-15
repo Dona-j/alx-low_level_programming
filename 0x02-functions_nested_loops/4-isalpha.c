@@ -12,9 +12,9 @@
  * Return: Always 1 or 0 (success)
  */
 
- int _isalpha(int c)
+int _isalpha(int c)
 {
-	if _isalpha(c)
+	if (isalpha(c))
 		return (1);
 	else
 		return (0);
