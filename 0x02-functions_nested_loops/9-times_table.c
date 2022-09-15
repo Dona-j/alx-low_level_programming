@@ -11,7 +11,9 @@
 
 void times_table(void)
 {
-	int i, j, times;
+	int i, 
+	int j,
+       	times;
 
 	for (i = 0; i <= 9; i++)
 
