@@ -1,9 +1,9 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "main.h"
-i#include "_putchar.h"
+
 /**
- * print_numbers- prints the numbers, from 0 to 9, followed by a new line.
+ * prin_numbers- prints the numbers, from 0 to 9, followed by a new line.
  *
  * Return: void
 */
