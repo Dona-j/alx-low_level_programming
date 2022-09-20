@@ -5,7 +5,7 @@
 /**
  * _puts - prints a string followed by a new line.
  *
- * str - string parameter
+ * @str: Entry point parameter
  *
  * Return: Always 0.
  */
