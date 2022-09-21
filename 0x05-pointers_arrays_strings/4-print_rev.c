@@ -4,6 +4,7 @@
  * print_rev - prints a string in reverse
  *
  * str: Entry point parameter
+ * @s: Entry point
  *
  * Return 0 Always.
  */
