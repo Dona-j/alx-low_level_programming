@@ -6,7 +6,7 @@
  * @i: number parameter
  * Return: 1 if prime number and 0 if not
  */
-int is_prime_number(unsigned int n, unsigned int i)
+int actual_prime_number(unsigned int n, unsigned int i)
 {
 	if (n % i == 0)
 	{
@@ -15,7 +15,7 @@ int is_prime_number(unsigned int n, unsigned int i)
 		else
 			return (0);
 	}
-	return (0 + is_prime(n, i - 1));
+	return (0 + actual_prime_number(n, i - 1));
 }
 
 
@@ -41,5 +41,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (is_prime(n, 2));
+	return (is_prime_number('n', 2));
 }
