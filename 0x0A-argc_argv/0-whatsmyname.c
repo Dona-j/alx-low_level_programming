@@ -4,12 +4,15 @@
 /**
  * main - a program that prints its name
  * @argc: argument passed into main
- * @argv: pargument passed into main
- *
+ * @argv: argument passed into main
+ * 
  * Return: Always 0.
  */
-void main(int argc, char *argv[])
+int main(int argc __attribute ((unused)), char *argv[])
 {
+	if (argc == 1)
+	{
 	printf("%s\n", argv[0]);
-
+	}
+	return (0);
 }
