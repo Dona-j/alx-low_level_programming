@@ -5,10 +5,9 @@
  * main - a program that prints its name
  * @argc: argument passed into main
  * @argv: argument passed into main
- * 
  * Return: Always 0.
  */
-int main(int argc __attribute ((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	if (argc == 1)
 	{
