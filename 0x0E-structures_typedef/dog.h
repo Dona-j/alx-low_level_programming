@@ -7,5 +7,5 @@ typedef struct dog {
 	char *owner;
 } dog;
 
-#endif
+#endif /** #define DOG_H*/
 
