@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 
 int main(void)
 {
 	char *s;
 
-	s = filename;
+	s = __FILE__;
 	printf("%s\n", s);
 	return (0);
 }
