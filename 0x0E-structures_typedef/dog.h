@@ -3,11 +3,14 @@
 
 /**
  * @struct dog - a cute dog
+ *
  * name: dog name parameter
+ * 
  * @age: dog age parameter
+ *
  * @owner: dog owner parameter
  * 
- * Description - features of a dog
+ * Description - a beautiful dog
  */
 
  struct dog
