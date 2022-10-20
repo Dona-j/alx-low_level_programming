@@ -14,8 +14,7 @@ size_t print_list(const list_t *h)
 	 i = 0;
 	 if (list == NULL)
 	 {
-		 printf("error\n");
-	 }
+		 printf("error\n" }
 	 while (list != NULL)
 	{
 		if (list->str == NULL)
