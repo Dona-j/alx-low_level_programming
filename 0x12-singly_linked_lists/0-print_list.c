@@ -2,7 +2,7 @@
 
 /**
  * print_list - a function that prints all the elements of a linked list
- * h: address of a linked list
+ * @h: address of a linked list
  *
  * Return: size_t
  */
@@ -12,10 +12,11 @@ size_t print_list(const list_t *h)
 	const list_t *list = h;
 
 	 i = 0;
-	 if (list == NULL)
-	 {
-		 printf("error\n" }
-	 while (list != NULL)
+	if (list == NULL)
+	{
+		printf("error\n");
+	}
+	while (list != NULL)
 	{
 		if (list->str == NULL)
 		{
@@ -25,7 +26,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("[%u] %s\n", list->len, list->str);
 		}
-		list =list->next;
+		list = list->next;
 		i++;
 	}
 	return (i);
