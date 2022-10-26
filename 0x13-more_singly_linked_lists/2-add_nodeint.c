@@ -1,9 +1,11 @@
 #include "lists.h"
 
 /**
- * add_nodeint -adds new node at begining of linked lists
+ * add_nodeint - function that adds new node at begining of linked lists
  * @head: first node in the linked list
  * @n: node count
+ *
+ * Return: firstNode.
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
