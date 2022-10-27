@@ -11,7 +11,7 @@ int pop_listint(listint_t **head)
 	listint_t *delNode;
 	int n;
 
-	if (head != NULL)
+	if (*head != NULL)
 	{
 		delNode = *head;
 		n = delNode->n;
@@ -20,7 +20,7 @@ int pop_listint(listint_t **head)
 	}
 	else
 	{
-		if (head == NULL)
+		if (*head == NULL)
 		{
 			return (0);
 		}
