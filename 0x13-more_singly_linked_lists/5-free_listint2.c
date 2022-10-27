@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint - function that frees a linked list
+ * free_listint2 - function that frees a linked list
  * @head: pointer to first node of linked list
  *
  * Return: NULL
