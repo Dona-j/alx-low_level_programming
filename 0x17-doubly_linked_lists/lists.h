@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdio.h>
 
-#ifndef LIST_H
-#define LIST_H
+#ifndef LISTS_H
+#define LISTS_H
 
 /**
  * struct dlistint_s - doubly linked list
@@ -23,3 +23,4 @@ typedef struct dlistint_s
 
 size_t print_dlistint(const dlistint_t *h);
 
+#endif
