@@ -8,12 +8,10 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (!name || if)
-	{
-		return (0);
-	}
-	else
-	{
-		return (name);
-	}
+	if (!name || !f)
+
+		return;
+
+		f(name);
+
 }
