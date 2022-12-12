@@ -1,0 +1,7 @@
+A library in C is a collection of objects files exposed for use and build other programs, so instead of re-write sections of code we bring back information that is already existing, this is where it comes to the concept of a library. In C exist two kinds of libraries the first ones are the static that allows us to link to the program and are not relevant during the runtime, and the other ones are called dynamic libraries those are preferable use when you run a lot of programs at the same time who are using the same library and you want to be more efficient.
+
+What are the differences between static and dynamic libraries?
+Static libraries, while reusable in multiple programs, are locked into a program at compile time. Dynamic, or shared libraries, on the other hand, exist as separate files outside of the executable file.
+
+How do they work
+Dynamic libraries (also called shared libraries) are linked into the program in two stages. First, during compile time, the linker verifies that all the symbols (again, functions, variables, and the like) required by the program, are either linked into the program or in one of its dynamic libraries. However, the object files from the dynamic library are not inserted into the executable file. Instead, when the program is started, a program in the system (called a dynamic loader) checks out which shared libraries were linked with the program, loads them to memory, and attaches them to the copy of the program in memory.
