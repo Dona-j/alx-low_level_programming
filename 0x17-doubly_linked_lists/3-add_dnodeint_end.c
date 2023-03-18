@@ -32,9 +32,12 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	/*if list not empty, traverse to end of list and make temp the last node*/
 	while (temp->next  != NULL)
+	{
 		temp = temp->next;
+	}
 	temp->next = new_node;
 	new_node->prev = temp;
+	new_node->next = NULL;
 
 	return  (new_node);
 
