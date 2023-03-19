@@ -22,6 +22,9 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	/* if the address of the head(first node) is not empty, make it the new node*/
 	if (!(*head))
 	{
+		new_node->next = NULL;
+		new_node->n = n;
+		new_node->prev = NULL;
 		*head = new_node;
 		return (new_node);
 	}
